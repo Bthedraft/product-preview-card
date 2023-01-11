@@ -1,0 +1,753 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&display=swap');/* font-family: 'Fraunces', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */ 
+
+
+/*
+body{
+    background-color: #f2ebe3;
+    font-family: 'Montserrat', serif;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.hero-image img{
+    width: 50%;
+    border: 1px solid #f2ebe3;
+    border-radius: 20px 0px 0px 20px;
+    position: relative;
+    margin-left: 360px;
+    margin-top: 100px;
+    height: 84.1%;
+    border-right: #ffffff;
+}
+
+
+
+
+.hero-info{
+    margin-top: 100px;
+    background-color: #ffffff;
+    width: 50%;
+    border: 1px solid #f2ebe3;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+.attribution{
+    margin-top: 50px;
+}
+
+
+.content{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+.price{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 500;
+    font-size: 15px;
+    color: #3c8067;
+}
+
+
+.feint{
+    color: #828181;
+}
+
+
+.bold{
+    color: black;
+    
+}
+
+
+.button{
+    width: 30%;
+}
+
+@media screen and (max-width:375px){
+
+    .hero-image img{
+        width: 30%;
+        position: relative;
+        margin-top: 150px;
+    }
+
+
+}
+
+*/
+/*
+body{
+    background-color:  #f2ebe3;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+    margin-top: 80px;
+    margin-left: 90px;
+    row-gap: 0px;
+    gap: 0px;
+}
+
+
+.hero-image img{
+    border: 1px solid #f2ebe3;
+    border-radius: 20px 0px 0px 20px;
+    border-right: #ffffff;
+    width: 50%;
+    position: relative;
+    margin-left: 310px;
+    height: 99.8%;
+}
+
+
+
+
+.hero-info{
+    background-color: #ffffff;
+    border: 1px solid #f2ebe3;
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    position: relative;
+    margin-right: 473px;
+}
+
+
+.content{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 80%;
+
+}
+
+
+.attribution{
+    margin-top: 80px;
+
+
+}
+
+.feint{
+    letter-spacing: 5px;
+    color: #afacac;
+
+}
+
+.details{
+    color: #afacac;
+    margin-top: 40px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.price{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+}
+
+.bold{
+    margin-top: 20px;
+    font-family: 'Fraunces'
+}
+
+.button{
+    margin-top: 20px;
+    width: 120%;
+    
+}
+
+.current{
+    color: #3c8067;
+    font-size: 45px;
+    font-family: 'Fraunces';
+}
+
+.previous{
+    font-size: 13px;
+    color: #afacac;
+    position: relative;
+    top: 7px;
+    left: 15px;
+    font-family: 'Montserrat';
+}
+
+.send{
+    background-color: #1c2b29;
+    color: #ffffff;
+    border: 1px solid #1c2b29;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    width: 70%;
+    font-family: 'Fraunces';
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.cartIcon{
+    width: 4.5%;
+    position: relative;
+    left: 60px;
+    top: 70px;
+}
+
+@media screen and (max-width:1440px){
+    body{
+        background-color:  #f2ebe3;
+    }
+    
+    
+    .main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0px;
+        margin-top: 80px;
+        margin-left: 90px;
+        row-gap: 0px;
+    }
+    
+    
+    .hero-image img{
+        border: 1px solid #f2ebe3;
+        border-radius: 20px 0px 0px 20px;
+        border-right: #ffffff;
+        width: 50%;
+        position: relative;
+        margin-left: 310px;
+        height: 99.8%;
+    }
+    
+    
+    
+    
+    .hero-info{
+        background-color: #ffffff;
+        border: 1px solid #f2ebe3;
+        border-radius: 0px 20px 20px 0px;
+        width: 50%;
+        position: relative;
+        margin-right: 473px;
+    }
+    
+    
+    .content{
+        margin-left: 30px;
+        margin-top: 40px;
+        width: 80%;
+    
+    }
+    
+    
+    .attribution{
+        margin-top: 80px;
+    
+    
+    }
+    
+    .feint{
+        letter-spacing: 5px;
+        color: #afacac;
+    
+    }
+    
+    .details{
+        color: #afacac;
+        margin-top: 40px;
+        font-size: 14px;
+        font-family: 'Montserrat';
+    }
+    
+    .price{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 40px;
+    }
+    
+    .bold{
+        margin-top: 20px;
+        font-family: 'Fraunces'
+    }
+    
+    .button{
+        margin-top: 20px;
+        width: 120%;
+        
+    }
+    
+    .current{
+        color: #3c8067;
+        font-size: 45px;
+        font-family: 'Fraunces';
+    }
+    
+    .previous{
+        font-size: 13px;
+        color: #afacac;
+        position: relative;
+        top: 7px;
+        left: 15px;
+        font-family: 'Montserrat';
+    }
+    
+    .send{
+        background-color: #1c2b29;
+        color: #ffffff;
+        border: 1px solid #1c2b29;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 30px;
+        width: 70%;
+        font-family: 'Fraunces';
+        margin-right: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .cartIcon{
+        width: 4.5%;
+        position: relative;
+        left: 60px;
+        top: 70px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 375px){
+
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hero-image img{
+        width: 30%;
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+
+    .hero-info{
+        width: 30%;
+    }
+
+}
+*/
+/*
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:  #f2ebe3;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 2em;
+}
+
+.hero-image img { 
+    width:50%;
+    height: 100%;
+    border-radius: 2em 0em  0em 2em;
+
+}
+
+
+
+.hero-info {
+    display: flex;
+   align-items: center;
+   width: 50%;
+   margin-left: -8em;
+
+   
+}
+
+.content{
+    margin-left: -6em;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .main{
+       flex-direction: column;
+       width: 80%;
+    }
+
+    .content{
+        margin-left: 0;
+    }
+    
+    .hero-image img{
+       min-width: 100%;
+       border-radius: 2em 2em 0em 0em;
+    }
+
+}
+
+*/
+
+body{
+    background-color:  #f2ebe3;
+    max-width: 1440px;
+
+}
+
+
+.container {
+    width: 100%;
+    max-width: 800px;   
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 1em 1em 1em 1em;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 1em 1em 0em 0em;
+}
+
+
+.hero-info {
+    margin-top: 20px;
+    width: 100%;
+    
+    
+}
+
+
+
+.content {
+    margin-left: 2px;
+    padding: 2em;
+
+}
+
+.attribution{
+    margin-top: 8em;
+}
+
+
+
+
+.price{
+   
+    font-weight: 500;
+    font-size: 15px;
+    color: #3c8067;
+}
+
+
+.feint{
+    color: #828181;
+    letter-spacing: 5px;
+}
+
+
+.bold{
+    color: #000000;
+    
+}
+
+
+
+
+
+
+.details {
+    color: #afacac;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.previous{
+    margin-left: 1em
+}
+
+
+.bold {
+ 
+    font-family: 'Fraunces'
+}
+
+
+
+
+
+
+
+.current {
+    color: #3c8067;
+    font-size: 45px;
+    font-family: 'Fraunces';
+}
+
+
+
+.previous {
+    font-size: 13px;
+    color: #afacac;
+    font-family: 'Montserrat';
+}
+
+
+
+.send {
+    background-color: #1c2b29;
+    color: #ffffff;
+    border: 1px solid #1c2b29;
+    border-radius: 10px;
+    padding: 15px;
+   margin-top: 2em;
+   margin-left: -2em;
+    width: 100%;
+    font-family: 'Fraunces';
+    
+   
+    
+    
+}
+
+
+.bttn {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25em;
+        margin-top: 7em;
+        width: 0 auto;
+
+    }
+    .hero-image img {
+        display: flex;
+        width: 20em;
+        height: 30em;
+        border-radius: 1em 0em 0em 1em;
+        
+        /*background-image: url(../product-preview-card-component-main/images/image-product-desktop.jpg);*/
+    }
+
+
+
+    .send {
+        background-color: #1c2b29;
+        color: #ffffff;
+        border: 1px solid #1c2b29;
+        border-radius: 10px;
+        padding: 15px;
+       margin-top: 2em;
+       margin-left: -2em;
+        width: 100%;
+        font-family: 'Fraunces';
+        
+    }
+    
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1439px) {
+
+    body{
+        background-color:  #f2ebe3
+    
+    }
+    
+    
+    .container {
+        width: 100%;
+        max-width: 600px;   
+    }
+    
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border-radius: 1em 1em 1em 1em;
+        width: 80%;
+        margin: 0 auto;
+        
+        
+    }
+    
+    .hero-image img {
+        width: 100%;
+        border-radius: 1em 1em 0em 0em;
+    }
+    
+    
+    .hero-info {
+        margin-top: 20px;
+        width: 100%;
+        
+        
+    }
+    
+    
+    
+    .content {
+        margin-left: 2px;
+        padding: 2em;
+    
+    }
+    
+    .attribution{
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    .price{
+       
+        font-weight: 500;
+        font-size: 15px;
+        color: #3c8067;
+    }
+    
+    
+    .feint{
+        color: #828181;
+        letter-spacing: 5px;
+    }
+    
+    
+    .bold{
+        color: #000000;
+        
+    }
+    
+    
+    
+    
+    
+    
+    .details {
+        color: #afacac;
+        font-size: 14px;
+        font-family: 'Montserrat';
+    }
+    
+    
+    
+    .price {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+    .previous{
+        margin-left: 1em
+    }
+    
+    
+    .bold {
+     
+        font-family: 'Fraunces'
+    }
+    
+    
+    
+    
+    
+    
+    
+    .current {
+        color: #3c8067;
+        font-size: 45px;
+        font-family: 'Fraunces';
+    }
+    
+    
+    
+    .previous {
+        font-size: 13px;
+        color: #afacac;
+        font-family: 'Montserrat';
+    }
+    
+    
+    
+    .send {
+        background-color: #1c2b29;
+        color: #ffffff;
+        border: 1px solid #1c2b29;
+        border-radius: 10px;
+        padding: 15px;
+       margin-top: 2em;
+       margin-left: -2em;
+        width: 100%;
+        font-family: 'Fraunces';
+    }
+
+}
+
