@@ -46,7 +46,7 @@ Users should be able to:
 
 Solution URL: https://github.com/Bthedraft/product-preview-card.git
 
-Live Site URL: 
+Live Site URL: https://product-preview-card-8tsuk6d0p-bthedraft.vercel.app/
 
 
 ## Built with
